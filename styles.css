@@ -14,7 +14,7 @@ header#top.navbar.navbar-default.navbar-static-top {
 
 .sfia-table thead {
 	display: table;
-	width: 100%;
+	width: calc(100% - 17px);
 }
 
 .sfia-table tbody {
