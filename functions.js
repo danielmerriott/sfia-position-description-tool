@@ -2,7 +2,7 @@
 
 var xmlhttp;
 xmlhttp=new XMLHttpRequest();
-xmlhttp.open('GET', "json_source_v6.json", false);
+xmlhttp.open('GET', "json_source.json", false);
 xmlhttp.send();
 var sfia_json = JSON.parse(xmlhttp.responseText);
 var root_key_printed = [];
